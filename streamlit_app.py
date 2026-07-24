@@ -6,5 +6,5 @@ st.title("Portfolio Allocator")
 
 st.info("Designed to help you choose the right portfolio")
 
-st.write("Will you print")
+capital = st.text_input("Enter investible capital")
 
