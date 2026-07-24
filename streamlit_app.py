@@ -11,3 +11,5 @@ with st.expander("Stocks chosen for you"):
   st.write("💰Apple")
   st.write("💰Microsoft")
   st.write("💰SquarePoint Capital")
+with st.expander("Monte Carlo Solution"):
+  
