@@ -11,18 +11,9 @@ with st.expander("Stocks chosen for you"):
   st.write("💰Apple")
   st.write("💰Microsoft")
   st.write("💰SquarePoint Capital")
-import requests
-import json
-import pandas as pd
-
-from typing import List
-from typing import Dict
-from typing import Union
+  
 from datetime import date
 from datetime import datetime
-from datetime import timedelta
-from dateutil.relativedelta import *
-
 
 import yfinance as yf
 
