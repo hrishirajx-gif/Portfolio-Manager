@@ -1,5 +1,8 @@
 import streamlit as st
 import pandas as pd
+from datetime import date
+from datetime import datetime
+import yfinance as yf
 
 
 st.title("Portfolio Allocator")
@@ -12,8 +15,5 @@ with st.expander("Stocks chosen for you"):
   st.write("💰Microsoft")
   st.write("💰SquarePoint Capital")
   
-from datetime import date
-from datetime import datetime
 
-import yfinance as yf
       
