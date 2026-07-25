@@ -553,7 +553,5 @@ print('-'*80)
 
 """
 
-!pip install streamlit
 
-!pip freeze #for requirements.txt
 
