@@ -2,7 +2,6 @@ import streamlit as st
 import pandas as pd
 from datetime import date
 from datetime import datetime
-import yfinance as yf
 
 
 st.title("Portfolio Allocator")
