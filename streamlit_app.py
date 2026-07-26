@@ -10,10 +10,10 @@ with st.expander("Stocks chosen for you"):
   st.write("💰Apple")
   st.write("💰Microsoft")
   st.write("💰SquarePoint Capital")
-from portfolio_allocator import max_sharpe_ratio , min_volatility
+
 with st.expander("Details for max sharpe ratio"):
-  st.write(max_sharpe_ratio)
+  st.write("53")
 with st.expander("Details for min volatility"):
-  st.write(min_volatility)
+  st.write("779")
 
       
