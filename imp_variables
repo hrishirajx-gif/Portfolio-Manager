@@ -1,0 +1,2 @@
+from portfolio_allocator import max_sharpe ratio
+max_sharpe_ratio
