@@ -27,7 +27,7 @@ with st.expander("Stocks chosen for you"):
   st.write("💰Titan")
   st.write("💰Ultratech Cement")
   
-from portfolio_allocator import max_sharpe_ratio
+from imp_variables import max_sharpe_ratio
 
 with st.expander("Details for max sharpe ratio"):
   max_sharpe_ratio
