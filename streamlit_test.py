@@ -27,12 +27,13 @@ st.write("💰TCS")
 st.write("💰Titan")
 st.write("💰Ultratech Cement")
 
-with st.expander("Details for max sharpe ratio"):
-  max_sharpe_ratio
-with st.expander("Details for min volatility"):
 with st.expander("Results of Monte-Carlo Simulations"):
-  st.write("")
+  st.write("Sharpe Ratio - 1.52838")
+  st.write("Annual Returns - 21.5124%")
+  st.write("Volatility - 14.0753%")
 with st.expander("Results of SQLSP"):
-st.write("779")
+  st.write("Sharpe Ratio - 1.79528")
+  st.write("Annual Returns -27.17707%")
+  st.write("Volatility - 15.13806%")
 
 
