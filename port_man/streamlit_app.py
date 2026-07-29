@@ -28,12 +28,12 @@ with st.expander("Stocks chosen for you"):
   st.write("💰Ultratech Cement")
 
 
-with st.expander("Results of Monte-Carlo Simulations"):
+with st.expander("The Monte-Carlo Portfolio"):
   st.write("Sharpe Ratio - 1.52838")
   st.write("Annual Returns - 21.5124%")
   st.write("Volatility - 14.0753%")
   st.write(f"In a year , this portfolio is expected to make you ₹ {0.215124*float(capital)} !")
-with st.expander("Results of SQLSP"):
+with st.expander("The SQLSP Portfolio"):
   st.write("Sharpe Ratio - 1.79528")
   st.write("Annual Returns -27.17707%")
   st.write("Volatility - 15.13806%")
