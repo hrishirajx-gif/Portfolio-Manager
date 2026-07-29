@@ -5,7 +5,7 @@ st.title("Portfolio Allocator")
 
 st.info("Designed to help you choose the right portfolio")
 
-capital = st.text_input("Enter investible capital")
+capital = st.text_input("Enter investible capital in rupees")
 with st.expander("Stocks chosen for you"):
   st.write("💰Bajaj Finance")
   st.write("💰BEL")
