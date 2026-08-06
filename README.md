@@ -6,7 +6,7 @@ Users can input their risk profile and the app will return what stocks they shou
 
 The core logic lives in `port_man/portfolio_allocator.ipynb`. It:
 
-1. Loads historical closing prices for 20 Indian large-cap stocks (Reliance, TCS, HDFC Bank, Infosys, and so on) from `stock_data_1.csv`.
+1. Loads historical closing prices for 19 Indian large-cap stocks (Reliance, TCS, HDFC Bank, Infosys, and so on) from `stock_data_1.csv`.
 2. Converts prices to log returns.
 3. Runs a Monte Carlo simulation — 100,000 random portfolios — to map out the trade-off between return and volatility, and picks out the ones with the best Sharpe ratio and the lowest volatility.
 4. Runs the same optimization properly using SLSQP (Sequential Least Squares Programming) from `scipy.optimize`, with weights constrained to sum to 100% and no shorting allowed.
@@ -46,5 +46,5 @@ streamlit run port_man/streamlit_app.py
 ## Notes
 
 - Stock universe and pre-computed portfolio stats in the Streamlit app are currently hardcoded — the app doesn't run the optimizer live yet.
-- One symbol's data failed to download, so the notebook works with 19 of the 20 stocks in practice.
-- This is a learning project, not investment advice.
+- One symbol's data failed to download, so the notebook works with 19 of the 20 stocks that are originally mentioned in the code.
+- This is a student project, not investment advice.
